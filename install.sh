@@ -29,14 +29,14 @@ if [ ! -f "$TMP_BIN" ]; then
   exit 1
 fi
 
-echo "-----------------------"
+echo " -----------------------"
 echo " -> chmod +x $TMP_BIN..."
 chmod +x "$TMP_BIN"
 echo " "
 
-echo "------------------------------------------"
+echo " ------------------------------------------"
 echo " -> move $TMP_BIN to $TARGET..."
-sudo mv "$TMP_BIN" "$TARGET"
+sudo -p " Password: " mv "$TMP_BIN" "$TARGET"
 echo " "
 
 echo " -> Finish - start the programm with "rain""
