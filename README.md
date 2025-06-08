@@ -1,6 +1,10 @@
 # rain
 
-A small terminal animation that simulates falling rain
+version 2:
+There are many new commands, but also quite a few bugs,
+i uploaded it here anywa< because the bugs aren't too big..
+
+i will upload the source code soon for v2, but only once there are no more bugs...
 
 ## Installation
 
